@@ -4,7 +4,7 @@ This is a simple python based demonstration of how to perform Hybrid (Vector & F
 
 *NOTE:* At this time sqlite-vec is still under development and it is expected that there will be breaking changes. Please keep this in mind when considering this when using this demonstration.
 
-The demonstration provided uses an in memory SQLite database, however SQLIte also allows for persistence of the database. It is also important to note that as of this time, sqlite-vec currently only supports vector search using full table scans, as oppposed to other techniques such as ANN, although other options are under developments. Regardless, the speed is incredibly impressive, even with large numbers of vectors and has the advantage of higher accuracy over ANN, etc. In addition, sqlite-vec supports pre-filtering of rows to decrease the analysis time.
+The demonstration provided here, uses an in memory SQLite database, however SQLIte also allows for persistence of the database. It is also important to note that as of this time, sqlite-vec currently only supports vector search using full table scans, as oppposed to other techniques such as ANN, although other options are under development. Regardless, the speed is incredibly impressive, even with large numbers of vectors and has the advantage of higher accuracy over ANN, etc. In addition, sqlite-vec supports pre-filtering of rows to decrease the analysis time.
 
 Althoough this notebook only provides a Python demonstration, other languages are supported.
 
